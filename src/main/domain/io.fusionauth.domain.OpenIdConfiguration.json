@@ -21,6 +21,9 @@
         "type" : "String"
       } ]
     },
+    "device_authorization_endpoint" : {
+      "type" : "String"
+    },
     "end_session_endpoint" : {
       "type" : "String"
     },
@@ -44,6 +47,12 @@
     },
     "jwks_uri" : {
       "type" : "String"
+    },
+    "response_modes_supported" : {
+      "type" : "List",
+      "typeArguments" : [ {
+        "type" : "String"
+      } ]
     },
     "response_types_supported" : {
       "type" : "List",
