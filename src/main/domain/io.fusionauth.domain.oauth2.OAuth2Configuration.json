@@ -39,6 +39,9 @@
     "generateRefreshTokens" : {
       "type" : "boolean"
     },
+    "logoutBehavior" : {
+      "type" : "LogoutBehavior"
+    },
     "logoutURL" : {
       "type" : "URI"
     },
